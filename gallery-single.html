@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Galería Individual - PhotoFolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="gallery-single-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/camera.png" alt="logo">
+        <h1 class="sitename">PhotoFolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Inicio<br></a></li>
+          <li><a href="about.html">Sobre Mi</a></li>
+          <li class="dropdown"><a href="gallery.html"><span>Galería</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="gallery.html">Aniversarios</a></li>
+              <li><a href="gallery.html">Casamientos</a></li>
+              <li><a href="gallery.html">Cumpleaños</a></li>
+              <li><a href="gallery.html">Eventos</a></li>
+              <li><a href="gallery.html">Personas</a></li>
+              <li><a href="gallery.html">XV años</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://wa.link/doiiu0" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/share/1SHnZsYyzw/?mibextid=qi2Omg" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/davem_fotos?igsh=MXBlN2ZnNG1zeXludQ==" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/adrian-david-montenegro?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Galería Individual</h1>
+              <p class="mb-0">Un vistazo exclusivo a proyectos fotográficos únicos. Descubre la esencia de cada sesión y la historia detrás de cada imagen capturada con detalle y creatividad.</p>
+              <a href="contact.html" class="cta-btn">Reserva tu sesión<br></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Galería Individual</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Gallery Details Section -->
+    <section id="gallery-details" class="gallery-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-8.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-9.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-10.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-11.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-12.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-13.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/gallery-14.jpg" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Un instante de luz inmortalizado a través de mi lente.</h2>
+              <p>
+                Explora los detalles de este proyecto fotográfico, donde cada imagen captura momentos auténticos y emociones genuinas. A través de una cuidada composición y el uso experto de la luz, cada fotografía cuenta una historia única y significativa.
+              </p>
+              <p>
+                Cada sesión es una oportunidad para crear recuerdos inolvidables, reflejando la esencia y personalidad del cliente. Desde retratos hasta sesiones temáticas, cada imagen está pensada para transmitir belleza, profundidad y autenticidad.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Trabajar con David fue una experiencia increíble. Capturó cada momento con profesionalismo y creatividad, haciendo que la sesión fuera natural y divertida. ¡Totalmente recomendado!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Clienta</h4>
+                </div>
+              </div>
+
+              <p>
+                Al igual que ella, tu proyecto también puede ser único y especial. Cada sesión es una oportunidad para capturar momentos inolvidables, reflejar emociones auténticas y crear recuerdos que perduren en el tiempo.
+              </p>
+
+              <p>
+                Si buscas fotografías que transmitan tu esencia y cuenten tu historia de manera excepcional, estaré encantado de ayudarte a hacerlo realidad.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Información del proyecto</h3>
+              <ul>
+                <li><strong>Categoria</strong> Casamientos</li>
+                <li><strong>Cliente</strong> Fulanita</li>
+                <li><strong>Fecha de sesión</strong> 01 Mar, 2020</li>
+                <li><a href="https://www.instagram.com/davem_fotos?igsh=MXBlN2ZnNG1zeXludQ==" class="btn-visit align-self-start">Conoce más proyectos únicos</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">PhotoFolio</strong> <span>Todos los derechos reservados</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://wa.link/doiiu0"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/share/1SHnZsYyzw/?mibextid=qi2Omg"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/davem_fotos?igsh=MXBlN2ZnNG1zeXludQ=="><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/adrian-david-montenegro?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Powered by <a href="https://portfolio-guillermo-martinez.netlify.app/">Guillermo Martinez</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
