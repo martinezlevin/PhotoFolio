@@ -1329,7 +1329,7 @@ section,
   font-weight: 600;
 }
 
-
+/* ACCORDION COLOR*/
 
 .accordion-flush .accordion-item {
   background-color: black !important; /* Fondo negro */
@@ -1360,6 +1360,8 @@ section,
 .accordion-button:not(.collapsed)::after {
   filter: invert(1); /* Mantiene la flecha blanca */
 }
+
+/* ESTRELLAS COLOR */
 
 .bi-star-fill {
   color: yellow !important;
