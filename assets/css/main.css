@@ -1366,19 +1366,3 @@ section,
 .bi-star-fill {
   color: yellow !important;
 }
-
-
-
-
-
-
-
-.modal-content {
-  background-color: #212529; /* Color dark personalizado */
-  color: white;
-  border: 1px solid #444; /* Borde sutil */
-}
-
-.modal-header, .modal-footer {
-  border-color: #444; /* Bordes oscuros */
-}
