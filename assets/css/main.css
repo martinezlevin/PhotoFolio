@@ -1360,3 +1360,7 @@ section,
 .accordion-button:not(.collapsed)::after {
   filter: invert(1); /* Mantiene la flecha blanca */
 }
+
+.bi-star-fill {
+  color: yellow !important;
+}
