@@ -1328,3 +1328,35 @@ section,
   font-size: 25px;
   font-weight: 600;
 }
+
+
+
+.accordion-flush .accordion-item {
+  background-color: black !important; /* Fondo negro */
+}
+
+.accordion-flush .accordion-button {
+  background-color: black !important; /* Fondo negro */
+  color: white !important; /* Texto blanco */
+  border-bottom: 1px solid white !important; /* Línea divisoria */
+}
+
+.accordion-flush .accordion-button:not(.collapsed) {
+  background-color: #222 !important; /* Negro más claro cuando está abierto */
+  color: white !important;
+}
+
+.accordion-flush .accordion-body {
+  background-color: black !important; /* Fondo negro */
+  color: white !important; /* Texto blanco */
+}
+
+/* Hace que la flecha del acordeón sea blanca */
+.accordion-button::after {
+  filter: invert(1); /* Invierte el color de la flecha a blanco */
+}
+
+/* Evita que la flecha desaparezca cuando el acordeón está abierto */
+.accordion-button:not(.collapsed)::after {
+  filter: invert(1); /* Mantiene la flecha blanca */
+}
