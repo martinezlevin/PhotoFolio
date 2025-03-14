@@ -643,6 +643,21 @@ h6 {
   }
 }
 
+/* Ajusta el tamaño del carrusel en pantallas grandes */
+@media (min-width: 1200px) {
+  .portfolio-details-slider {
+    max-width: 1920px; /* Ajusta el ancho máximo */
+    margin: 0 auto; /* Centra el carrusel */
+  }
+
+  .swiper-slide img {
+    max-height: 550px; /* Ajusta la altura máxima */
+    width: auto;
+    object-fit: contain; /* Asegura que la imagen no se deforme */
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
